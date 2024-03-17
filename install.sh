@@ -2,9 +2,9 @@
 
 # INstalar paquetes basicos
 
-apt install sudo curl wget vim nitrogen firefox-esr awesome lightdm nautilus hydra nmap nfs-common nfstrace nmon 
+apt install sudo curl wget vim nitrogen firefox-esr awesome lightdm nautilus hydra nmap nfs-common nfstrace nmon alacritty
 
-#modificar el archivo /etc/profile y .bashrc de jaimedalton y de root
+echo "modificar el archivo /etc/profile y .bashrc de jaimedalton y de root"
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
 mkdir -p /home/jaimedalton/.config/awesome
