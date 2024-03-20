@@ -2,7 +2,7 @@
 
 # INstalar paquetes basicos
 apt update
-apt install sudo curl wget vim nitrogen firefox-esr awesome lightdm nautilus hydra nmap nfs-common nfstrace nmon alacritty remmina make cmake git light-locker
+apt install sudo curl wget vim nitrogen firefox-esr awesome lightdm nautilus hydra nmap nfs-common nfstrace nmon alacritty remmina make cmake git light-locker bat
 
 echo "modificar el archivo /etc/profile y .bashrc de jaimedalton y de root"
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
