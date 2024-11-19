@@ -311,7 +311,7 @@ globalkeys = gears.table.join(
               {description = "restaurar minimizado", group = "client"}),
 
     -- Pantalla de bloqueo
-    awful.key({ modkey, "Control" }, "l", function ()
+    awful.key({ "Mod5" }, "l", function ()
         awful.spawn("dm-tool switch-to-greeter") end,
         {description = "Bloquear pantalla", group = "launcher"}),
 
@@ -557,7 +557,7 @@ end)
 -- Configura las esquinas redondeadas para cada cliente
 client.connect_signal("manage", function (c)
     c.shape = function(cr, w, h)
-        gears.shape.rounded_rect(cr, w, h, 5)
+        gears.shape.rounded_rect(cr, w, h, 7)
     end
 end)
 
@@ -568,7 +568,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- {{{ Gaps
 -- Establece gaps entre ventanas
-beautiful.useless_gap = 3
+beautiful.useless_gap = 2
 -- }}}
 
 -- {{{ Autostart
